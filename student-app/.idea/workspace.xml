@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4ccff6ce-db1b-42b7-a5a7-e8d02710d7f3" name="Default Changelist" comment="" />
+    <list default="true" id="4ccff6ce-db1b-42b7-a5a7-e8d02710d7f3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/student/app/StudentInfo/StudentPostTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/student/app/StudentInfo/StudentPostTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/student/app/StudentInfo/StudentGetTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/student/app/StudentInfo/StudentGetTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/student/app/StudentInfo/StudentPatchTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/student/app/StudentInfo/StudentPatchTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/student/app/StudentInfo/StudentPostTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/student/app/StudentInfo/StudentPostTest.class" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,13 +23,36 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/student/app/StudentInfo/StudentGetTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="529">
               <caret line="47" selection-start-line="47" selection-end-line="47" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/student/app/StudentInfo/StudentPostTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="15" column="33" lean-forward="true" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="366">
+              <caret line="111" column="10" selection-start-line="111" selection-start-column="10" selection-end-line="111" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/student-app.iml">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -51,6 +82,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -58,10 +92,10 @@
         <option value="$PROJECT_DIR$/src/main/java/com/student/app/StudentPojo.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/student/app/StudentInfo/StudentPutTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/student/app/StudentInfo/StudentDeleteTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/student/app/StudentInfo/StudentPostTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/student/app/TestBase/TestBase.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/student/app/StudentInfo/StudentGetTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/student/app/StudentInfo/StudentPatchTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/student/app/StudentInfo/StudentPostTest.java" />
       </list>
     </option>
   </component>
@@ -78,11 +112,14 @@
     <option name="width" value="1382" />
     <option name="height" value="744" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -94,12 +131,6 @@
               <item name="student-app" type="b2602c69:ProjectViewProjectNode" />
               <item name="student-app" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="student-app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="student-app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="student-app" type="b2602c69:ProjectViewProjectNode" />
@@ -131,25 +162,15 @@
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="StudentInfo" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="student-app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="student-app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="TestBase" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559763955166" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559766685513" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -176,7 +197,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.StudentPostTest.verifyThatStudentEmailShouldNotBeNUll">
     <configuration name="StudentGetTest.getAllStudentInformation_ResponseExample" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="student-app" />
       <extension name="coverage">
@@ -193,8 +214,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StudentPostTest.verifyThatStudentEmailShouldNotBeNUll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="student-app-restassured" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.student.app.StudentInfo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.student.app.StudentInfo" />
+      <option name="MAIN_CLASS_NAME" value="com.student.app.StudentInfo.StudentPostTest" />
+      <option name="METHOD_NAME" value="verifyThatStudentEmailShouldNotBeNUll" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.StudentPostTest.verifyThatStudentEmailShouldNotBeNUll" />
         <item itemvalue="JUnit.StudentGetTest.getAllStudentInformation_ResponseExample" />
       </list>
     </recent_temporary>
@@ -219,11 +257,21 @@
     <history-entry file="StudentGetTest_getAllStudentInformation_ResponseExample - 2019.06.05 at 20h 42m 56s.xml">
       <configuration name="StudentGetTest.getAllStudentInformation_ResponseExample" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="StudentPostTest_verifyThatStudentEmailShouldNotBeNUll - 2019.06.05 at 21h 17m 07s.xml">
+      <configuration name="StudentPostTest.verifyThatStudentEmailShouldNotBeNUll" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StudentPostTest_verifyThatStudentEmailShouldNotBeNUll - 2019.06.05 at 21h 18m 03s.xml">
+      <configuration name="StudentPostTest.verifyThatStudentEmailShouldNotBeNUll" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StudentPostTest_verifyThatStudentEmailShouldNotBeNUll - 2019.06.05 at 21h 19m 47s.xml">
+      <configuration name="StudentPostTest.verifyThatStudentEmailShouldNotBeNUll" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25340393" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25718608" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -232,7 +280,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3289689" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3289689" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.30441898" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -251,25 +299,14 @@
       <window_info anchor="right" id="Palette&#9;" order="7" />
     </layout>
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="LAST_COMMIT_MESSAGE" value="" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1887">
-          <caret line="111" column="10" selection-start-line="111" selection-start-column="10" selection-end-line="111" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/student/app/StudentPojo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="12" column="16" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/student/app/StudentInfo/StudentPostTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
     </entry>
@@ -305,6 +342,23 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="366">
+          <caret line="111" column="10" selection-start-line="111" selection-start-column="10" selection-end-line="111" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/student-app.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/student/app/StudentInfo/StudentPostTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="15" column="33" lean-forward="true" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
         </state>
       </provider>
     </entry>

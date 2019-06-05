@@ -75,7 +75,7 @@ public class StudentPostTest extends TestBase {
     }
 
     @Test
-    public void verifyStudentFirstNameIsNUll() {
+    public void verifyThatStudentFirstNameIsShouldNotBeNUll() {
 
         StudentPojo studentPojo = new StudentPojo();
         List<String> courses = new ArrayList<>();
@@ -101,4 +101,33 @@ public class StudentPostTest extends TestBase {
                 .assertThat()
                 .body(equalTo(expectedText));
     }
+
+    @Test
+    public void verifyThatStudentEmailShouldNotBeNUll() {
+
+        StudentPojo studentPojo = new StudentPojo();
+        List<String> courses = new ArrayList<>();
+        courses.add("Singing");
+        courses.add("Dancing");
+        courses.add("Drama");
+
+        studentPojo.setFirstName("Meenakumar");
+        studentPojo.setLastName("Pakiza");
+        studentPojo.setEmail("");
+        studentPojo.setProgramme("Bollywood Actress");
+        studentPojo.setCourses(courses);
+
+        String expectedText = "{\"error\":\"Please correct the following errors\",\"fieldErrors\":{\"email\":\"may not be empty\"}}";
+
+        given().header("Content-Type", "application/json")
+                .when()
+                .body(studentPojo)
+                .post()
+                .then()
+                .statusCode(500)
+                .and()
+                .assertThat()
+                .body(equalTo(expectedText));
+    }
+
 }
